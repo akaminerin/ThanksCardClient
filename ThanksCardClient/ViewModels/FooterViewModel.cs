@@ -124,7 +124,9 @@ namespace ThanksCardClient.ViewModels
         void ExecuteShowmanualCommand()
         {
             this.regionManager.Regions["FooterRegion"].RemoveAll();
+
         //    this.regionManager.RequestNavigate("FooterRegion", nameof(Views.Manual));
+
         }
         #endregion
 

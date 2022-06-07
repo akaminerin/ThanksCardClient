@@ -17,12 +17,12 @@
             <Button Content="更新" HorizontalAlignment="Left" Height="114" Margin="250,336,0,0" VerticalAlignment="Top" Width="305" FontSize="48" Background="#FF59ECFF"/>
             <Button Content="削除" HorizontalAlignment="Left" Height="114" Margin="555,336,0,0" VerticalAlignment="Top" Width="245" FontSize="48" Background="#FF12E4FF"/>
             <ComboBox HorizontalAlignment="Left" Height="28" Margin="276,110,0,0" VerticalAlignment="Top" Width="190"/>
-            <TextBlock HorizontalAlignment="Center" Height="34" Margin="0,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="White" Background="#FFE4E4E4"/>
+            <TextBox Text="{Binding Department.Name}" HorizontalAlignment="Center" Height="34" Margin="0,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="White" Background="#FFE4E4E4"/>
             <TextBlock HorizontalAlignment="Left" Height="22" Margin="276,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Text="部署コード" FontSize="20" RenderTransformOrigin="0.476,1.193"/>
             <Button Content="戻る" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="202" FontSize="36" Command="{Binding ShowFooterCommand}" />
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" Text="親部署名" VerticalAlignment="Top" Width="152" Margin="276,79,0,0" FontSize="16"/>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="276,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Text="部署名" FontSize="20"/>
-        <TextBox Text="{Binding User.Name}" HorizontalAlignment="Center" Height="34" Margin="0,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="White" Background="#FFE4E4E4"/>
+        <TextBox Text="{Binding User.Code}" HorizontalAlignment="Center" Height="34" Margin="0,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="White" Background="#FFE4E4E4"/>
     </Grid>
 </UserControl>
